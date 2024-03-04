@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "New York Unicycle Club"
 description              : "NYC's unicycle club."
-url                      : "https://callajune.github.io/nyunicycleclub"
+url                      : "https://newyorkunicycleclub.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
