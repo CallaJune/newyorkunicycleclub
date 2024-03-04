@@ -23,7 +23,7 @@ name                     : "New York Unicycle Club"
 description              : "NYC's unicycle club."
 url                      : "https://newyorkunicycleclub.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "callajune/newyorkunicycleclub"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "New York Unicycle Club"
+  name             : # "New York Unicycle Club"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "First Sunday and third Saturday of every month."
+  bio              : # "First Sunday and third Saturday of every month."
   location         : "Grant's Tomb, NYC"
   email            :
   links:
@@ -132,12 +132,15 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/groups/6266834377"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/nyc.unicycle.club/"
+    - label: "Flickr"
+      icon: "fab fa-fw fa-flickr"
+      url: "https://www.flickr.com/photos/unatics/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@KMCSNY/"
 
 
 # Reading Files
@@ -206,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
